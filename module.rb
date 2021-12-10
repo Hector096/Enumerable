@@ -8,12 +8,12 @@ module MyEnumerable
 
   def any?
     each do |e|
-      return false if yield(e)
+      return true if yield(e)
     end
-    true
+    false
   end
 
-  def filter?
+  def filter
     result = []
     each do |e|
       result << e if yield(e)

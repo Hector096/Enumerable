@@ -31,14 +31,3 @@ list.any? { |e| e == 5 }
 # Test #filter
 list.filter(&:even?)
 # [2, 4]
-
-# Test #max
-list.max { |a, b| a <=> b }
-# 4
-
-# Test #min
-list.min { |a, b| a <=> b }
-# 1
-
-# Test #sort
-list.sort { |a, b| b <=> a }
