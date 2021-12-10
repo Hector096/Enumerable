@@ -1,6 +1,6 @@
 # Enumerable
 
-> A prject that demonstrates how to use a module in a class
+> A project that demonstrates how to use a module in a class.
 ## Built With
 
 - Ruby
